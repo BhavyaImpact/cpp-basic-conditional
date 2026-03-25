@@ -91,21 +91,22 @@ So when you compare characters in C++, you are actually comparing their ASCII nu
 
 Every character has a unique number:
 
-Character	ASCII Value
-A -->	65
-Z	--> 90
-a	--> 97
-z	--> 122
-0	--> 48
-9	--> 57
+Character 	   ASCII Value
+    A     -->	    65
+    Z	    -->     90
+    a	    -->     97
+    z	    -->     122
+    0   	-->     48
+    9	    -->     57
+  
+  <p>This are the ranges that varies for (A to Z) , (a to z ) and for numbers ( 0 to 9) and the given arrow determine the ASCII values.</p>
 
-<h3>Example</h3>
+  <h3>Example ( how to fetch)</h3>
+  char ch = 'A';
+  cout << (int)ch;
 
-char ch = 'A';
-cout << (int)ch;
-
-<h3>Output</h3>
-  65
+  <h3>Output</h3>
+    --> 65
 </pre>
 
 <p>
