@@ -100,7 +100,6 @@ Character 	   ASCII Value
     9	    -->     57
   
   <p>This are the ranges that varies for (A to Z) , (a to z ) and for numbers ( 0 to 9) and the given arrow determine the ASCII values.</p>
-
   <h3>Example ( how to fetch)</h3>
   char ch = 'A';
   cout << (int)ch;
